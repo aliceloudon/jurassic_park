@@ -1,6 +1,8 @@
 var Dinosaur = function(type, offspring) {
   this.type = type
-  this.offspring = 0
+  this.offspring = offspring
 }
+
+  
 
 module.exports = Dinosaur

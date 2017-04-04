@@ -13,4 +13,8 @@ describe ('Dinosaur', function() {
     assert.strictEqual('Tyrannosaurus', dinosaur.type)
   })
 
+  it ('should have a number of offspring', function() {
+    assert.strictEqual(2, dinosaur.offspring)
+  })
+
 })
