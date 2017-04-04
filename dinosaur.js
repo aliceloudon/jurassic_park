@@ -3,6 +3,4 @@ var Dinosaur = function(type, offspring) {
   this.offspring = offspring
 }
 
-  
-
 module.exports = Dinosaur
